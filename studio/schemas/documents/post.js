@@ -45,7 +45,10 @@ export default {
       type: 'array',
       of: [
         {
-          type: 'authorReference'
+          type: 'reference',
+          to: {
+            type: 'author'
+          }
         }
       ]
     },
